@@ -1,0 +1,33 @@
+.container .form form .form-control{
+    height: 40px;
+    font-size: 15px;
+    background: #4C0033;
+    border-radius: 8px;
+    color: white;
+    
+
+}
+.container .form form .form-control::selection{
+    background: #4C0033;
+}
+.container .form form .button{
+    font-size: 17px;
+    font-weight: 500;
+    
+    background: #e80f88;
+    background-image: -webkit-linear-gradient(top, #e80f88, #790252);
+    background-image: -moz-linear-gradient(top, #e80f88, #790252);
+    background-image: -ms-linear-gradient(top, #e80f88, #790252);
+    background-image: -o-linear-gradient(top, #e80f88, #790252);
+    background-image: linear-gradient(to bottom, #e80f88, #790252);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    color: #ffffff;
+    
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border:none;
+    cursor: pointer;
+    
+}
